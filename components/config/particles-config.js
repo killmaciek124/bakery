@@ -2,7 +2,7 @@ const particlesConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#000",
+      value: "#fff",
     },
     image: "",
     position: "50% 50%",
@@ -73,7 +73,7 @@ const particlesConfig = {
         duration: 2,
         mix: false,
         opacity: 1, // 0.8
-        size: 20, // 40 size of hovering donuts
+        size: 40, // 40 size of hovering donuts
         divs: {
           distance: 200,
           duration: 0.4,
@@ -294,8 +294,8 @@ const particlesConfig = {
     number: {
       density: {
         enable: true,
-        width: 2000, // 1920 // DENSITY VALUES
-        height: 2000, // 1080
+        width: 4000, // 1920 // DENSITY VALUES
+        height: 4000, // 1080
       },
       limit: 0,
       value: 80,
@@ -355,178 +355,28 @@ const particlesConfig = {
           sides: 5,
         },
         image: [
-          //   {
-          //     src: "https://cdn.pixabay.com/photo/2019/08/17/20/16/bud-4412876_960_720.png",
-          //     width: 32,
-          //     height: 35,
-          //   },
-
-          //   {
-          //     src: "https://particles.js.org/images/fruits//apple.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//avocado.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//banana.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//berries.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//cherry.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//grapes.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//lemon.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//orange.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//peach.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//pear.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
           {
-            src: "https://cdn.pixabay.com/photo/2019/08/17/20/16/bud-4412876_960_720.png",
-            // src: "https://thumbs.dreamstime.com/b/donut-black-background-d-illustration-170559095.jpg",
-            // src: "https://www.pngfind.com/pngs/m/56-561056_png-file-svg-donut-icon-black-and-white.png",
-            // DONUTS
-            // src: "https://www.pngkey.com/png/detail/13-132570_donut-comments-black-and-white-donut-svg.png",
+            src: "https://cdn.pixabay.com/photo/2020/06/09/17/36/donut-5279363_960_720.png",
             width: 32,
             height: 35,
           },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//plum.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//star.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//strawberry.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//watermelon.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//watermelon_slice.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
+
+          // {
+          //   src: "https://cdn.pixabay.com/photo/2019/08/17/20/16/bud-4412876_960_720.png",
+          //   src: "https://thumbs.dreamstime.com/b/donut-black-background-d-illustration-170559095.jpg",
+          //   src: "https://www.pngfind.com/pngs/m/56-561056_png-file-svg-donut-icon-black-and-white.png",
+          //   // DONUTS
+          //   src: "https://www.pngkey.com/png/detail/13-132570_donut-comments-black-and-white-donut-svg.png",
+          //   width: 32,
+          //   height: 35,
+          // },
         ],
         images: [
-          //   {
-          //     src: "https://cdn.pixabay.com/photo/2019/08/17/20/16/bud-4412876_960_720.png",
-          //     width: 32,
-          //     height: 35,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//avocado.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//banana.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//berries.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//cherry.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//grapes.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//lemon.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//orange.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//peach.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//pear.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//pepper.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//plum.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//star.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//strawberry.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//watermelon.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
-          //   {
-          //     src: "https://particles.js.org/images/fruits//watermelon_slice.png",
-          //     width: 32,
-          //     height: 32,
-          //   },
+          // {
+          //   src: "https://cdn.pixabay.com/photo/2019/08/17/20/16/bud-4412876_960_720.png",
+          //   width: 32,
+          //   height: 35,
+          // },
         ],
       },
       type: "image",
@@ -536,7 +386,7 @@ const particlesConfig = {
         enable: false,
         minimumValue: 1,
       },
-      value: 12, // size of donuts
+      value: 32, // size of donuts
       animation: {
         count: 0,
         enable: false,
