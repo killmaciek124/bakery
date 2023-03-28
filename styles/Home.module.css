@@ -287,10 +287,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 8%;
 }
 .h1 {
   z-index: 9;
-  /* background-color: black; */
   position: absolute;
   margin-top: 50%;
   border: 3px solid black;
@@ -320,4 +320,5 @@
   height: auto;
   width: 100%;
   border-radius: 100%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
