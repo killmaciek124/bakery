@@ -1,12 +1,10 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import ParticlesBackground from "@/components/layout/ParticlesBackground";
 import mypic from "../assets/logo.jpg";
 import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 const HomePage = (props) => {
   return (
