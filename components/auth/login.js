@@ -1,7 +1,6 @@
 // PROPER FILE FOR GOOGLE AUTH
 
 import { useSession, signIn, signOut } from "next-auth/react";
-
 const Login = () => {
   const { data: session } = useSession();
   console.log(session);
@@ -15,7 +14,7 @@ const Login = () => {
   } else {
     return (
       <div>
-        <p>You are not signed in!</p>
+        {/* <p>You are not signed in!</p> */}
         <button onClick={() => signIn()}>SignIn</button>
       </div>
     );
