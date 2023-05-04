@@ -1,38 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Maziuk Bakery Website
 
-## Getting Started
+Welcome to the Maziuk Bakery Website! This is a website for my father's bakery, where you can view the bakery's menu, location, and contact information. The website is built using Next.js, Tailwind CSS, React, and NextAuth with Google provider for authentication. The website also uses SweetAlert2 and MongoDB for database management.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The Maziuk Bakery Website provides the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Displaying a menu of bakery items from the MongoDB database, with options to add and delete items from the database.
+- Showing the location of the bakery on Google Maps and providing contact information.
+- An admin panel with Google authentication for managing the bakery's menu items.
+- Displaying pictures from the bakery's Facebook page using the Graph API from Facebook.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The following technologies were used in building the Maziuk Bakery Website:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Next.js
+- Tailwind CSS
+- React
+- NextAuth with Google provider
+- SweetAlert2
+- MongoDB
+- Facebook Graph API
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Visit the Website
 
-## Learn More
+Click [here](https://maziuk.eu) to visit my website!
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Maziuk Bakery Website is licensed under the MIT License. Feel free to use and modify the code as you wish.
