@@ -10,6 +10,7 @@ The Maziuk Bakery Website provides the following features:
 - Showing the location of the bakery on Google Maps and providing contact information.
 - An admin panel with Google authentication for managing the bakery's menu items.
 - Displaying pictures from the bakery's Facebook page using the Graph API from Facebook.
+- CSV parser to get csv file of a menu
 
 ## Technologies Used
 
