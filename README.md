@@ -1,6 +1,6 @@
 # Maziuk Bakery Website
 
-Welcome to the Maziuk Bakery Website! This is a website for my father's bakery, where you can view the bakery's menu, location, and contact information. The website is built using Next.js, Tailwind CSS, React, and NextAuth with Google provider for authentication. The website also uses SweetAlert2 and MongoDB for database management.
+Welcome to the Maziuk Bakery Website! This is a website for my father's bakery, where you can view the bakery's menu, location, some pictures and contact information. The website is built using Next.js, Tailwind CSS, React, and NextAuth with Google provider for authentication. The website also uses SweetAlert2 and MongoDB for database management.
 
 ## Features
 
